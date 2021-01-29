@@ -2,11 +2,20 @@
   <div>
     <nav class="navbar-brand">Zodiax</nav>
   </div>
-  <ul class="navbar-nav">
-    <li><a class="nav-link">Account</a></li>
-    <li><a class="nav-link">Play</a></li>
-    <li><a class="nav-link">History</a></li>
-    <li><a class="nav-link">Logout</a></li>
-  </ul>
-
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li>
+        <a class="nav-link" routerLink="/account">Account</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/game">Play</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/history">History</a>
+      </li>
+      <li>
+        <a class="nav-link">Logout</a>
+      </li>
+    </ul>
+  </div>
 </nav>
