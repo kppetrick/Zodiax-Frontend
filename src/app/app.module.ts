@@ -7,9 +7,14 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AccountComponent } from './account/account.component';
 import { GameComponent } from './game/game.component';
 import { HistoryComponent } from './history/history.component';
-import {RouterModule, Routes} from "@angular/router"
+import { RouterModule, Routes } from "@angular/router"
+import { LoginComponent } from "./login/login.component";
 
 const appRoutes: Routes = [
+  {
+    path:'',
+    component:LoginComponent
+  },
   {
     path:'account',
     component:AccountComponent
