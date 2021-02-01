@@ -30,47 +30,7 @@
 .nav-link:hover {
   color: lawngreen
 }
-/*body {*/
-/*  font-family: sans-serif;*/
-/*}*/
-/*.container {*/
-/*  display: grid;*/
-/*  grid-auto-flow: column;*/
-/*}*/
-/*ul {*/
-/*  display: grid;*/
-/*  grid-auto-flow: column;*/
-/*  align-content: center;*/
-/*  justify-content: end;*/
-/*}*/
-/*#nav-bar {*/
-/*  display: grid;*/
-/*  grid-auto-flow: column;*/
-/*  background-color: black;*/
-/*  border-color: grey;*/
-/*  font-weight: bold;*/
-/*}*/
-/*a {*/
-/*  color: white;*/
-/*}*/
-/*.logo {*/
-/*  display: grid;*/
-/*  align-content: center;*/
-/*  justify-content: start;*/
-/*  color: lawngreen;*/
-/*  text-shadow: 5px 5px 10px white;*/
-/*  margin: auto;*/
-/*}*/
-/*ul li a {*/
-/*  font-weight: initial;*/
-/*  color: white;*/
-/*  text-shadow: 5px 5px 5px lawngreen;*/
-/*  margin: 5px;*/
-/*  overflow: hidden;*/
-/*}*/
-/*ul li a:hover {*/
-/*  color: lawngreen;*/
-/*}*/
+
 
 
 
