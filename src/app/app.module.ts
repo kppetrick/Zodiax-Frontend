@@ -13,6 +13,8 @@ import { GameComponent } from './game/game.component';
 import { HistoryComponent } from './history/history.component';
 import { HiscoresComponent } from './Hiscores/hiscores.component';
 import { AccountService } from "./Services/account/account.service";
+import { BoardComponent } from './board/board.component';
+import { HexagonsComponent } from './hexagons/hexagons.component';
 
 const appRoutes: Routes = [
   {
@@ -45,7 +47,9 @@ const appRoutes: Routes = [
     GameComponent,
     HistoryComponent,
     LoginComponent,
-    HiscoresComponent
+    HiscoresComponent,
+    BoardComponent,
+    HexagonsComponent
   ],
   imports: [
     BrowserModule,
