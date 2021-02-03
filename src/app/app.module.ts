@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule, Routes } from "@angular/router"
 import { HttpClient } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
 import { NavigationComponent } from './navigation/navigation.component';
+import { LoginComponent } from "./login/login.component";
 import { AccountComponent } from './account/account.component';
 import { GameComponent } from './game/game.component';
 import { HistoryComponent } from './history/history.component';
-import { RouterModule, Routes } from "@angular/router"
-import { LoginComponent } from "./login/login.component";
-import { AccountService } from "./Services/account.service";
-import { FormsModule } from "@angular/forms";
-import { HiscoresComponent } from './Hiscores/hiscores/hiscores.component';
+import { HiscoresComponent } from './Hiscores/hiscores.component';
+import { AccountService } from "./Services/account/account.service";
 
 const appRoutes: Routes = [
   {
@@ -45,7 +45,7 @@ const appRoutes: Routes = [
     GameComponent,
     HistoryComponent,
     LoginComponent,
-    HiscoresComponent,
+    HiscoresComponent
   ],
   imports: [
     BrowserModule,

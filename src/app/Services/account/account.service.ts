@@ -5,6 +5,19 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class AccountService {
-
+  getAllAccounts() {
+  }
+  getAccount(){
+  }
+  getAllRatedGreater() {
+  }
+  getAllRatedBelow(){
+  }
+  createAccount(){
+  }
+  updateAccount(){
+  }
+  deleteAccount(){
+  }
   constructor() { }
 }
