@@ -1,11 +1,16 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class AccountService {
-  getAllAccounts() {
+  constructor(private http: HttpClient) { }
+  // @ts-ignore
+  public getAllAccounts(url) {
+    return this.http.get<Account[]>(url)
   }
   getAccount(){
   }
@@ -19,5 +24,4 @@ export class AccountService {
   }
   deleteAccount(){
   }
-  constructor() { }
 }

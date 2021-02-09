@@ -1,4 +1,13 @@
-.form {
+form {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 2px solid black;
+  background-color: black;
+}
+#login {
   display: grid;
   justify-content: center;
   margin-top: 50px;
@@ -19,11 +28,12 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
-label {
+mat-card-title{
   color: white;
   padding-top: 10px;
   text-shadow: 1px 2px 10px white;
 }
+
 
 
 

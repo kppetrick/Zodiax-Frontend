@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AccountService} from "../Services/account/account.service";
+import {Router} from "@angular/router";
+
+
 
 @Component({
   selector: 'app-history',
@@ -6,10 +10,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./history.component.css']
 })
 export class HistoryComponent implements OnInit {
+  title = "History Page"
 
-  constructor() { }
+
+  constructor() {}
 
   ngOnInit(): void {
+
   }
 
+}
+
+export class Account {
 }

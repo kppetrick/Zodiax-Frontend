@@ -1,11 +1,13 @@
 <body>
-<form class="form">
+<form ngForm="ngForm">
   <div class="container">
-    <label><b>Username</b></label>
-    <input type="text" [(ngModel)]="account.name" placeholder="Username" required>
-    <label><b>Password</b></label>
-    <input type="password" [(ngModel)]="account.password" placeholder="Password" required>
+    <mat-card>
+      <mat-card-title><b>Username</b></mat-card-title>
+    <input type="text" placeholder="Username" required>
+      <mat-card-title><b>Password</b></mat-card-title>
+    <input type="password"  placeholder="Password" required>
     <button id="button" type="submit">Login</button>
+    </mat-card>
   </div>
 </form>
 </body>
